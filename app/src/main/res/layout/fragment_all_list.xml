@@ -5,12 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".fragment.AllListFragment">
 
-
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="allList"
-        android:textSize="50sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_allMusic"
+        tools:listitem="@layout/item_recycler"
         />
 
 </FrameLayout>
